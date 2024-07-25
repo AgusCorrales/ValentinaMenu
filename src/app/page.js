@@ -1,4 +1,4 @@
-import { Empanadas } from '@/components/empanadas'
+import { Empanadas } from '@/components/component/empanadas'
 import React from 'react'
 
 const Home = () => {
