@@ -1,0 +1,28 @@
+.numberGreen {
+    width: 38px; /* Puedes ajustar el tamaño */
+    height: 38px; /* Debe ser igual al ancho para mantener la forma circular */
+    background-color: #00ff00; /* Color de fondo verde personalizado */
+    color: black; /* Color del texto blanco */
+    border-radius: 50%; /* Esto hace que el elemento sea circular */
+    display: flex; /* Para centrar el contenido */
+    align-items: center; /* Para centrar verticalmente */
+    justify-content: center; /* Para centrar horizontalmente */
+    font-size: 12px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita en el texto */
+
+  
+}
+.numberRed {
+    width: 38px; /* Puedes ajustar el tamaño */
+    height: 38px; /* Debe ser igual al ancho para mantener la forma circular */
+    background-color: red; /* Color de fondo verde personalizado */
+    color: black; /* Color del texto blanco */
+    border-radius: 50%; /* Esto hace que el elemento sea circular */
+    display: flex; /* Para centrar el contenido */
+    align-items: center; /* Para centrar verticalmente */
+    justify-content: center; /* Para centrar horizontalmente */
+    font-size: 12px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita en el texto */
+
+  
+}

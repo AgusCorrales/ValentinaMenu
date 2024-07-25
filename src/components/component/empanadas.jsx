@@ -1,92 +1,118 @@
+import "./empanadas.css"
+
 
 export function Empanadas() {
   return (
-    (<div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-black">
-      <header className="bg-primary text-primary-foreground py-4 px-6">
-        <h1 className="text-2xl font-bold color-black"> La Valentina</h1>
-      </header>
-      <main className="px-6 py-8">
-        <section>
-          <h2 className="text-xl font-bold mb-4">Hamburgers</h2>
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">1. Classic Burger</h3>
-                <p className="text-sm text-muted-foreground">
-                  Beef patty, lettuce, tomato, onion, pickles, ketchup, mustard
-                </p>
-              </div>
+    (<div className="bg-white py-12 sm:py-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4">Empanadas</h2>
+          <p>Nuestras empanadas hechas con los mejores ingredientes.</p>
+        </div>       
+        <div
+          className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberGreen">1</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">FUGAZZETA</h3>
             </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">2. Bacon Cheeseburger</h3>
-                <p className="text-sm text-muted-foreground">
-                  Beef patty, bacon, cheddar cheese, lettuce, tomato, onion
-                </p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">3. Mushroom Swiss Burger</h3>
-                <p className="text-sm text-muted-foreground">
-                  Beef patty, sautéed mushrooms, Swiss cheese, lettuce, mayo
-                </p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">4. BBQ Bacon Burger</h3>
-                <p className="text-sm text-muted-foreground">
-                  Beef patty, bacon, cheddar cheese, BBQ sauce, onion rings
-                </p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">5. Avocado Burger</h3>
-                <p className="text-sm text-muted-foreground">
-                  Beef patty, avocado, pepper jack cheese, lettuce, tomato
-                </p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">6. Spicy Jalapeño Burger</h3>
-                <p className="text-sm text-muted-foreground">
-                  Beef patty, jalapeños, pepper jack cheese, lettuce, spicy mayo
-                </p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">7. Veggie Burger</h3>
-                <p className="text-sm text-muted-foreground">Veggie patty, lettuce, tomato, onion, pickles, mustard</p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">8. Patty Melt</h3>
-                <p className="text-sm text-muted-foreground">Beef patty, Swiss cheese, caramelized onions, rye bread</p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">9. Double Cheeseburger</h3>
-                <p className="text-sm text-muted-foreground">
-                  Two beef patties, American cheese, lettuce, tomato, onion
-                </p>
-              </div>
-            </div>
-            <div className="bg-card rounded-lg shadow-md overflow-hidden">
-              <div className="p-4">
-                <h3 className="text-lg font-bold mb-2">10. Bacon Swiss Deluxe</h3>
-                <p className="text-sm text-muted-foreground">Beef patty, bacon, Swiss cheese, lettuce, tomato, mayo</p>
-              </div>
-            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Queso muzzarella,cebolla y orégano.
+            </p>
           </div>
-        </section>
-      </main>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberGreen">2</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">CAPRESSE</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Queso mozzarella, tomate natural y albahaca fresca.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberGreen">3</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">ESPINACA</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Espinacas, champiniones salteados y queso parmesano.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberRed">4</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">JAMÓN Y QUESO</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Queso mozzarella, jamón york y un toque de oregano.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberRed">5</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">BACON</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Bacon ahumado, cebolla salteada y mozzarella.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberGreen">6</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">HUMITA</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Maíz dulce en crema bechamel, cebolla salteada y zanahorias caramelizadas.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberRed">7</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">POLLO</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Pechuga a la parrilla, cebolla, huevo duro y pimientos verdes asados.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberRed">8</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">TERNERA SUAVE</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+            Carne de ternera, cebolla salteada, pimientos asados y especias.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberRed">9</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900">TERNERA PICANTE</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Carne de ternera sazonada con un punto de chiles y pimientos asados.
+            </p>
+          </div>
+          <div className="relative flex flex-col gap-6">
+            <div className="flex items-center gap-x-3">
+              <div
+                className="numberRed">10</div>
+              <h3 className="text-base font-semibold leading-7 text-gray-900"> SECRETO</h3>
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
+              Bondiola de cerdo a baja temperatura cortada a cuchillo, cebolla salteada y mucho jugo de carne.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>)
   );
 }

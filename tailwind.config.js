@@ -46,7 +46,12 @@ module.exports = {
             "card": {
               "DEFAULT": "hsl(var(--card))",
               "foreground": "hsl(var(--card-foreground))"
-            }
+            },
+            "customRed": '#ff0000',
+            "customGreen": '#00ff00', // Verde personalizado
+            "customOrange": '#ffa500', // Naranja personalizado
+            "customBlack": '#000000', // Negro personalizado
+            "customDarkGray": '#333333',
           },
       borderRadius: {
             "lg": "var(--radius)",
