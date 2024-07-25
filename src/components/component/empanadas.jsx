@@ -1,4 +1,4 @@
-import "./empanadas.css"
+import "./Empanadas.css"
 
 
 export function Empanadas() {
